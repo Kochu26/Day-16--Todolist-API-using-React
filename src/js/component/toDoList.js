@@ -34,9 +34,9 @@ export function ToDo() {
 
 	function Mensaje() {
 		if (tareas.length != 1) {
-			return "Faltan " + tareas.length + " tareas por completar";
+			return "There's " + tareas.length + " task to done";
 		} else {
-			return "Falta " + tareas.length + " tarea por completar";
+			return "There's " + tareas.length + " task to done";
 		}
 	}
 
@@ -48,7 +48,7 @@ export function ToDo() {
 						<input
 							className="form-control m-4 p-2"
 							type="text"
-							placeholder="Agregar una tarea"
+							placeholder="ADD A TASK"
 							onChange={e => setTarea(e.target.value)}
 							onKeyUp={k => SubmitForm(k.target.key)}
 							value={tarea}

@@ -7,7 +7,7 @@ import { ToDo } from "./toDoList";
 export function Home() {
 	return (
 		<div>
-			<h1 className="text-center">Lista de Tareas</h1>
+			<h1 className="text-center">LIST OF TASKS</h1>
 			<ToDo></ToDo>
 		</div>
 	);
